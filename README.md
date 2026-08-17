@@ -1,4 +1,4 @@
-# C Lexical Analyzer
+# Lexical Analyzer
 
 A modular **Lexical Analyzer implemented in C** that scans C source files, identifies and classifies lexical tokens, tracks source-code line numbers, and generates a detailed token summary.
 
