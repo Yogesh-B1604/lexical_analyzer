@@ -48,12 +48,4 @@ void initializeLexer(char* filename);
 void advance(LexerState *lexer);
 void peek(LexerState *lexer);
 
-Token getNextToken();
-void categorizeToken(Token* token);
-int isKeyword(const char* str);
-int isOperator(const char* str);
-int isSpecialCharacter(char ch);
-int isConstant(const char* str);
-int isIdentifier(const char* str);
-
 #endif
